@@ -25,7 +25,7 @@ pipeline {
                     sh 'docker login -u kodal035 -p ${dockerhubpwd}'
                         
                     }
-                    sh 'docker push suresh394/kubernetes'
+                    sh 'docker push kodal035/kubernetes'
                 }
             }
         }
